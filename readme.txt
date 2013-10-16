@@ -15,46 +15,46 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Localizations ==
 
-Português
+Portugu&ecirc;s
 
 == Description ==
 
-Easy Page Flip &eacute; um plugin que você pode fazer uma Revista Virtual em poucos cliques.
+Easy Page Flip &eacute; um plugin que voc&ecirc; pode fazer uma Revista Virtual em poucos cliques.
 
 == Installation ==
 
-= Instalação do plugin: =
+= Instala&ccedil;&atilde;o do plugin: =
 
 * Envie os arquivos do plugin para a pasta wp-content/plugins, ou instale usando o instalador de plugins do WordPress;
 * Ative o plugin;
 
 = Como usar: =
 
-* Depois de ativo irá aparecer uma aba chamada "Revistas", clique em "Adicionar Nova Revista" e adicione o título desejado;
+* Depois de ativo ir&aacute; aparecer uma aba chamada "Revistas", clique em "Adicionar Nova Revista" e adicione o t&iacute;tulo desejado;
 
-* Para adicionar a Galeria clique em "Adicionar Mídia -> Criar Galeria";
+* Para adicionar a Galeria clique em "Adicionar M&iacute;dia -> Criar Galeria";
 
 * Selecione as imagens desejadas e clique em "Criar um nova galeria";
 
-* Configure se você desejar que abra a imagem ou não;
-* Se vocês optarem para que abra a imagem, então vocês teram que ter um plugin instalado de LightBox para que a exibição funcione corretamente.
+* Configure se voc&ecirc; desejar que abra a imagem ou n&atilde;o;
+* Se voc&ecirc;s optarem para que abra a imagem, ent&atilde;o voc&ecirc;s teram que ter um plugin instalado de LightBox para que a exibi&ccedil;&atilde;o funcione corretamente.
 
-* Para adicionar a listagem das registas terá que adicionar o seguinte código: 
+* Para adicionar a listagem das registas ter&aacute; que adicionar o seguinte c&oacute;digo: 
 * &lt;?php if (function_exists("chr_pageflip_list")) { chr_pageflip_list(); }&gt;
 
-* De padrão ele vem com a listagem de 10 posts e na ordem DESC e a imagem com o tamanho padrão thumbnail, mas para alteram esses padrões é preciso adicionar da seguinte maneira:
+* De padr&atilde;o ele vem com a listagem de 10 posts e na ordem DESC e a imagem com o tamanho padr&atilde;o thumbnail, mas para alteram esses padrões &eacute; preciso adicionar da seguinte maneira:
 * &lt;?php if (function_exists("chr_pageflip_list")) { chr_pageflip_list(5, 'ASC', 'custom-image-size'); }?&gt;
-* Se o plugin "WP-PageNavi" estiver ativo ele usará o mesmo para o sistema de paginação se o mesmo não estiver instalado, automaticamente criará uma paginação personalizada.
+* Se o plugin "WP-PageNavi" estiver ativo ele usar&aacute; o mesmo para o sistema de pagina&ccedil;&atilde;o se o mesmo n&atilde;o estiver instalado, automaticamente criar&aacute; uma pagina&ccedil;&atilde;o personalizada.
 
-* Para a página de visualização da revista terá que adiconar o seguite código: 
+* Para a p&aacute;gina de visualiza&ccedil;&atilde;o da revista ter&aacute; que adiconar o seguite c&oacute;digo: 
 * &lt;?php if (function_exists("chr_pageflip_single")) { chr_pageflip_single(); }?&gt;
 
-* Para criar uma single personalizada crie um arquivo chamdado: single-pageflip.php e depois vá até "Configurações -> Links Permanentes" e atualize o seu .htaccess.
+* Para criar uma single personalizada crie um arquivo chamdado: single-pageflip.php e depois v&aacute; at&eacute; "Configura&ccedil;ões -> Links Permanentes" e atualize o seu .htaccess.
 
 == Frequently Asked Questions ==
 
 = 
-Qual é a licença do plugin? 
+Qual &eacute; a licen&ccedil;a do plugin? 
 =
 
 Este plugin esta licenciado como GPL.
@@ -62,20 +62,20 @@ Este plugin esta licenciado como GPL.
 
 = O que eu preciso para utilizar este plugin? =
 
-* Possuir instalada qualquer versão do WordPress.
+* Possuir instalada qualquer vers&atilde;o do WordPress.
 
 == Screenshots ==
 
 1. Aba Revistas
-2. Página de cadastro do PageFlip
-3. Código de listagem das Revistas
-4. Código de geração da Revista na Single
+2. P&aacute;gina de cadastro do PageFlip
+3. C&oacute;digo de listagem das Revistas
+4. C&oacute;digo de gera&ccedil;&atilde;o da Revista na Single
 
 == Changelog ==
 
 = 1.0.0 =
 
-* Versão incial do plugin.
+* Vers&atilde;o incial do plugin.
 
 == Upgrade Notice ==
 
