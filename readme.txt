@@ -19,7 +19,7 @@ Português
 
 == Description ==
 
-Easy Page Flip é um plugin que você pode fazer uma Revista Virtual em poucos cliques.
+Easy Page Flip &eacute; um plugin que você pode fazer uma Revista Virtual em poucos cliques.
 
 == Installation ==
 
