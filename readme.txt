@@ -42,14 +42,14 @@ Easy Page Flip &eacute; um plugin que voc&ecirc; pode fazer uma Revista Virtual 
 * Para adicionar a listagem das registas ter&aacute; que adicionar o seguinte c&oacute;digo: 
 * &lt;?php if (function_exists("chr_pageflip_list")) { chr_pageflip_list(); }&gt;
 
-* De padr&atilde;o ele vem com a listagem de 10 posts e na ordem DESC e a imagem com o tamanho padr&atilde;o thumbnail, mas para alteram esses padrões &eacute; preciso adicionar da seguinte maneira:
+* De padr&atilde;o ele vem com a listagem de 10 posts e na ordem DESC e a imagem com o tamanho padr&atilde;o thumbnail, mas para alteram esses padr&otilde;es &eacute; preciso adicionar da seguinte maneira:
 * &lt;?php if (function_exists("chr_pageflip_list")) { chr_pageflip_list(5, 'ASC', 'custom-image-size'); }?&gt;
 * Se o plugin "WP-PageNavi" estiver ativo ele usar&aacute; o mesmo para o sistema de pagina&ccedil;&atilde;o se o mesmo n&atilde;o estiver instalado, automaticamente criar&aacute; uma pagina&ccedil;&atilde;o personalizada.
 
 * Para a p&aacute;gina de visualiza&ccedil;&atilde;o da revista ter&aacute; que adiconar o seguite c&oacute;digo: 
 * &lt;?php if (function_exists("chr_pageflip_single")) { chr_pageflip_single(); }?&gt;
 
-* Para criar uma single personalizada crie um arquivo chamdado: single-pageflip.php e depois v&aacute; at&eacute; "Configura&ccedil;ões -> Links Permanentes" e atualize o seu .htaccess.
+* Para criar uma single personalizada crie um arquivo chamdado: single-pageflip.php e depois v&aacute; at&eacute; "Configura&ccedil;&otilde;es -> Links Permanentes" e atualize o seu .htaccess.
 
 == Frequently Asked Questions ==
 
