@@ -22,6 +22,21 @@ Portugu&ecirc;s
 
 Easy Page Flip is a plugin where you create a Virtual Magazine in few clicks.
 
+= Languages: =
+
+* English (Default)
+* Portugu&ecirc;s
+
+= Look for all my plugins =
+
+Sign in for see the demos, all my plugins...
+
+Front-end: http://www.chrdesigner.com/demo/
+
+Back-end: http://www.chrdesigner.com/demo/login/
+
+Username: demo - Password: demo
+
 == Installation ==
 
 = Installation =
