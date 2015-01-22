@@ -4,84 +4,100 @@ Contributors: chrdesigner
 Donate link: 
 Tags: pageflip, easy, list pageflip, show pageflip
 
-Requires at least: 3.0
+Requires at least: 3.6
 
-Tested up to: 3.6.1
+Tested up to: 4.1
 
-Stable tag: 1.0.1
+Stable tag: 1.1.0
 License: GPLv2 or later
 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Localizations ==
 
+English (Default)
 Portugu&ecirc;s
 
 == Description ==
 
-Easy Page Flip &eacute; um plugin que voc&ecirc; pode fazer uma Revista Virtual em poucos cliques.
+Easy Page Flip is a plugin where you create a Virtual Magazine in few clicks.
 
 == Installation ==
 
-= Instala&ccedil;&atilde;o do plugin: =
+= Installation =
 
-* Envie os arquivos do plugin para a pasta wp-content/plugins, ou instale usando o instalador de plugins do WordPress;
-* Ative o plugin;
+* Upload the plugin to the wp-content/plugins folder;
+* Activate the plugin;
 
-= Como usar: =
+= How to use =
 
-* Depois de ativo ir&aacute; aparecer uma aba chamada "Revistas", clique em "Adicionar Nova Revista" e adicione o t&iacute;tulo desejado;
+* After activated will be show a new tab "Magazines", click in "Add a New".
 
-* Para adicionar a Galeria clique em "Adicionar M&iacute;dia -> Criar Galeria";
+* For create a Gallery, click in "Add Media -> Create a Gallery";
 
-* Selecione as imagens desejadas e clique em "Criar um nova galeria";
+* Upload or Choose your images for create your Gallery and "Create a new gallery";
 
-* Configure se voc&ecirc; desejar que abra a imagem ou n&atilde;o;
-* Se voc&ecirc;s optarem para que abra a imagem, ent&atilde;o voc&ecirc;s teram que ter um plugin instalado de LightBox para que a exibi&ccedil;&atilde;o funcione corretamente.
+* If you choose for images open in presentation, please install a LightBox Plugin with you want.
 
-* Para adicionar a listagem das registas ter&aacute; que adicionar o seguinte c&oacute;digo: 
-* &lt;?php if (function_exists("chr_pageflip_list")) { chr_pageflip_list(); }&gt;
+* For add all your "Magazines" on a single page, please create a new "Pages -> Add New" and click in a small magazine icon;
 
-* De padr&atilde;o ele vem com a listagem de 10 posts e na ordem DESC e a imagem com o tamanho padr&atilde;o thumbnail, mas para alteram esses padr&otilde;es &eacute; preciso adicionar da seguinte maneira:
-* &lt;?php if (function_exists("chr_pageflip_list")) { chr_pageflip_list(5, 'ASC', 'custom-image-size'); }?&gt;
-* Se o plugin "WP-PageNavi" estiver ativo ele usar&aacute; o mesmo para o sistema de pagina&ccedil;&atilde;o se o mesmo n&atilde;o estiver instalado, automaticamente criar&aacute; uma pagina&ccedil;&atilde;o personalizada.
+* Inside the Shortcode control panel, You will see a few option for configuration your presentation;
 
-* Para a p&aacute;gina de visualiza&ccedil;&atilde;o da revista ter&aacute; que adiconar o seguite c&oacute;digo: 
-* &lt;?php if (function_exists("chr_pageflip_single")) { chr_pageflip_single(); }?&gt;
-
-* Para criar uma single personalizada crie um arquivo chamdado: single-pageflip.php e depois v&aacute; at&eacute; "Configura&ccedil;&otilde;es -> Links Permanentes" e atualize o seu .htaccess.
+* After this click in "Submit" and Publish your new page.
 
 == Frequently Asked Questions ==
 
 = 
-Qual &eacute; a licen&ccedil;a do plugin? 
+What is the plugin license?
 =
 
-Este plugin esta licenciado como GPL.
+This plugin is licensed under GPL.
 
 
-= O que eu preciso para utilizar este plugin? =
+= What do I need to use this plugin? =
 
-* Possuir instalada qualquer vers&atilde;o do WordPress.
+* You need Wordpress 3.6 to Up.
 
 == Screenshots ==
 
-1. Aba Revistas
-2. P&aacute;gina de cadastro do PageFlip
-3. C&oacute;digo de listagem das Revistas
-4. C&oacute;digo de gera&ccedil;&atilde;o da Revista na Single
+1. Tab Magazines
+2. Create Gallery
+3. Example Gallery
+4. Configure Easy Page Flip
+5. Shortcode Button Easy Page Flip
+6. Box Easy Page Flip
+7. Shortcode
+8. List Maganize
+9. Closed Magazine
+10. Open Magazine
 
 == Changelog ==
 
 = 1.0.0 =
 
-* Vers&atilde;o incial do plugin.
+* Initial version of the plugin.
+
+= 1.1.0 =
+
+* Suport for Multi-language;
+* Add English version;
+* Add new shortecode button;
+* Update jQuery Booklet Version;
+* Add Custom Configuration per Magazine;
 
 == Upgrade Notice ==
 
 = 1.0.0 =
 
 * Enjoy it.
+
+= 1.1.0 =
+
+* Suport for Multi-language;
+* Add English version;
+* Add new shortecode button;
+* Update jQuery Booklet Version;
+* Add Custom Configuration per Magazine;
 
 == License ==
 
