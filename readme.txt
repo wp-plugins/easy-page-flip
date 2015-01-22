@@ -22,7 +22,7 @@ Portugu&ecirc;s
 
 Easy Page Flip is a plugin where you create a Virtual Magazine in few clicks.
 
-Attention: For oldest users if you have a problem with this new update, please remove your custom single.
+Attention: For oldest users if you have a problem with this new update, please remove your custom single and page.
 
 = Languages: =
 
