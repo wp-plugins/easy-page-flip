@@ -1,7 +1,7 @@
 === Easy Page Flip ===
 
 Contributors: chrdesigner
-Donate link: 
+Donate link: http://www.chrdesigner.com/donate/
 Tags: pageflip, easy, list pageflip, show pageflip
 
 Requires at least: 3.6
@@ -28,6 +28,10 @@ Attention: For oldest users if you have a problem with this new update, please r
 
 * English (Default)
 * Portugu&ecirc;s
+
+= Translate: =
+
+Do you want help me translate this plugin for your language? Please, send me your file <strong>.po</strong> for my email <mailto:chrdesigner@chrdesigner.com>
 
 = Look for all my plugins =
 
